@@ -110,7 +110,6 @@ library(lubridate)
 elev$date <- with(elev, ymd_h(paste(year, month, day, hour, sep= ' ')))
 summary(elev$date)
 library(tidyverse)
-names(elev)
 # elev <- elev[order(elev$date), ]
 head(elev)
 ```
